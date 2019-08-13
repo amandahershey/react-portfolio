@@ -1,30 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom';
+import ContactPage from '../components/ContactPage';
 import Header from '../components/Header';
+import HomePage from '../components/HomePage';
 import NotFoundPage from '../components/NotFoundPage';
-
-const HomePage = () => (
-  <div>
-    This is the Home Page
-  </div>
-);
-const PortfolioPage = () => (
-  <div>
-    This is the Portfolio Page
-  </div>
-);
-
-const PortfolioIdPage = () => (
-  <div>
-    This is the Portfolio ID Page
-  </div>
-);
-
-const ContactPage = () => (
-  <div>
-    This is the Contact Page
-  </div>
-);
+import PortfolioPage from '../components/PortfolioPage';
+import PortfolioIdPage from '../components/PortfolioIdPage';
 
 const AppRouter = () => (
   <BrowserRouter>
